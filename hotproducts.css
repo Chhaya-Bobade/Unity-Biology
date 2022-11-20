@@ -1,0 +1,142 @@
+#hot-products{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: "El Messiri", sans-serif;
+ background-image: url(images/heading\ image.jpeg);
+ background-size: cover;
+}
+.header{
+  padding: 4rem !important;
+}
+
+#hot-products .container .header {
+  margin: 0 auto;
+}
+#hot-products .container .header h1 {
+  color: darkblue;
+  font-weight: 900;
+  text-align: center;
+  font-size: 4rem;
+}
+
+#hot-products .container {
+  /* width: 1000px; */
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#hot-products .container .card {
+  position: relative;
+  margin-left: 9px;
+  margin-right: 9px;
+  border: none;
+  background-color:transparent;
+  margin-bottom: 5rem;
+
+}
+#hot-products .container .card:hover{
+  border: 1px solid black;
+  border-radius: 12px;
+}
+#hot-products .container .card .face {
+  position: relative;
+  width: 100%;
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+  border-radius: 12px;
+}
+#hot-products .container .card .face.face1 {
+  position: relative;
+  background: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  transform: translateY(100px);
+
+}
+#hot-products .container .card1:hover .face.face1 {
+  transform: translateY(0);
+  background-image: url(https://www.inbiosindia.com/images/products/img-scrub-typhus-elisa-kit.jpg);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#hot-products .container .card2:hover .face.face1 {
+  transform: translateY(0);
+  background-image: url(https://www.inbiosindia.com/images/products/img-diapro-kit.jpg);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#hot-products .container .card3:hover .face.face1 {
+  transform: translateY(0);
+  background-image: url(https://www.inbiosindia.com/images/products/img-rickettsia-elisa-kit.jpg);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#hot-products .container .card .face.face1 .content {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+#hot-products .container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+#hot-products .container .card .face.face1 .content img {
+  max-width: 60px;
+}
+#hot-products .container .card .face.face1 .content h3 {
+  /* margin: 10px 0 0; */
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+#hot-products .container .card .face.face2 {
+  position: relative;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgb(65, 63, 63);
+  transform: translateY(-100px);
+}
+#hot-products .container .card:hover .face.face2 {
+  transform: translateY(0);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#hot-products .container .card .face.face2 p {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+#hot-products .container .card .face.face2 a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+#hot-products .container .card .face.face2 a:hover {
+  background: #333;
+  color: #fff;
+}
+@media screen and (max-width : 540px ) {
+  #hot-products .container {
+
+    justify-content: center;
+  
+  }
+}
