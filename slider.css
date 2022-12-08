@@ -13,7 +13,6 @@
   #carousel .carousel-item {
     height: 100vh;
     width: 100%;
-    min-height: 350px;
     background: no-repeat center center scroll;
     background-size: cover;
     margin-top: -20px;
@@ -74,3 +73,28 @@
     background-color: rgb(31, 31, 149);
     border-color: white;
   }
+@media(max-width: 736px){
+  #carousel .carousel-item {
+    height: 50vh;
+    width: 100%;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    margin-top: -20px;
+  }
+}
+@media(max-width: 912px){
+  #carousel .carousel-item {
+    height: 50vh;
+    width: 100%;
+    background: no-repeat center center scroll;
+    background-size: cover;
+  }
+}
+/* @media(max-width: 1025px){
+  #carousel .carousel-item {
+    height: 100vh;
+    width: 100%;
+    background: no-repeat center center scroll;
+    background-size: cover;
+  }
+} */

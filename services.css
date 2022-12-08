@@ -1,3 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+
+  -webkit-animation: bugfix infinite 1s;
+  /* needed for checkbox hack */
+  background: #021320;
+  }
+:root{
+    --white:white;
+    --blue:rgb(10, 10, 189);
+    --darkblue:#4949a1;
+
+}
+.head{
+  width: 100%;
+  height: 13rem;
+  /* background-color: lightskyblue; */
+  text-align: center;
+  padding-top: 3rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background: url(https://www.cloud4c.com/sg/sites/sg/files/styles/thumbnail_for_facebook/public/2022-07/cloud4c-company-contact-1Desktop.jpg?itok=Vla12_0A);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.head ul a{
+text-decoration:none;
+color: white;
+}
+#row ul{
+justify-content: center;
+display: flex;
+flex-direction: row;
+justify-items: center;
+justify-content:space-evenly;
+text-align: center;
+padding-top: 1rem;
+width: 35rem;
+margin: auto;
+}
+.attribution { 
+  font-size: 11px; text-align: center; 
+   }
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+   }
+img{
+  width: 7rem;
+  height: 7rem;
+  }
+
+  @media (max-width: 400px) {
+  h1 {
+      font-size: 1.5rem;
+  }
+}
+@media (max-width: 900px) {
+#row ul{
+justify-content: center;
+display: flex;
+flex-direction: column;
+width: 100%;
+padding-top: 0rem;
+}
+}
+
+/* navbar end */
 p,a,h1,h2,h3,h4,h5,h6,ul,li {
     margin: 0;
     padding: 0;
@@ -6,8 +86,6 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
   
   .section-services {
     font-family: "Poppins", sans-serif;
-    background-image: url(images/heading\ image.jpeg);
-    background-size: cover;
     color: #202020;
     padding-top: 115px;
       padding-bottom: 120px;
@@ -59,7 +137,7 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
   .section-services .single-service {
       position: relative;
       margin-top: 30px;
-      background-color: #fff;
+      border: 2px solid lightblue;
       border-radius: 10px;
       padding: 40px 30px;
       overflow: hidden;

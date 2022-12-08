@@ -150,3 +150,11 @@ h1, p {
   }
 }
 /* navbar end */
+@media(max-width: 1024px){
+  #nav ul li a {
+    height: 5rem;
+  }
+
+}
+
+/* navbar end */
